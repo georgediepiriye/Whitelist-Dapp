@@ -10,7 +10,7 @@ contract Whitelist {
 
     //create a mapping of whitelistedAddress
     //if the address is whitelistd we set it to true if not then false
-    mapping(address => bool) whitelistedAddresses;
+    mapping(address => bool) public whitelistedAddresses;
 
     // Setting the Max number of whitelisted addresses
     // User will put the value at the time of deployment
